@@ -186,23 +186,32 @@ img {
     grid-column: 1;
     grid-row: 1/3;
 }
+.grid-8 {
+    grid-column: 1;
+    grid-row: 3;
+}
+.grid-2col {
+    display: grid;
+    margin: 5% 5% 10% 5%;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    grid-auto-rows: minmax(100px, auto);
+}
 .grid-6 {
     grid-column: 1;
-    grid-row: 1/3;
+    grid-row: 1;
 }
 .grid-7 {
     grid-column: 2;
     grid-row: 1;
 }
-.illustration {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 5% 5% 10% 5%;
-    align-items: flex-start;
+.grid-9 {
+    grid-column: 1;
+    grid-row: 2;
 }
-.spot {
-    border-radius: 0;
-    padding-right: 3%;
+.grid-10 {
+    grid-column: 1;
+    grid-row: 3;
 }
 
 
@@ -390,7 +399,7 @@ img {
     .about-h2 {
         display: none;
     }
-    .container {
+    .container .more-projects {
         padding: 0% 5%;
         display: flex;
         flex-direction: column;
@@ -432,7 +441,7 @@ img {
     .spot {
         width: 100%;
     }
-    .grid {
+    .grid .grid-2col{
         display: flex;
         flex-direction: column;
         align-items: center;
