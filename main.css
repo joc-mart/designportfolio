@@ -98,10 +98,14 @@ img {
     border-radius: 10px;
     text-align: center;
 }
-.container-more {
+.space-above {
     margin-top: 4rem;
 }
-
+.more-projects {
+    display: flex;
+    margin: 0;
+    padding: 5% 2% 5% 5%; 
+}
 
 /** ebay **/
 .center {
@@ -288,14 +292,30 @@ img {
         flex-direction: row;
         justify-content: space-between;
     }
-    .container-other {
-        width: 55%;
-    }
     .center-block iframe {
         margin-top: 1em;
     }
     .photos {
         width: 50%;
+    }
+    /* scroll behavior */
+    .scroll-container {
+        display: block;
+        margin: 5%;
+        width: 600px;
+        height: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        transform: rotate(-90deg) translateY(-600px);
+        transform-origin: top right;
+    }
+    .scroll-page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3%;
+        transform: rotate(90deg);
     }
 }
 /****** iframe size *******/
@@ -403,7 +423,7 @@ img {
     video {
         width: 100%;
     }
-    .container-more {
+    .space-above{
         margin-top: 20%;
     }
     .bottom {
