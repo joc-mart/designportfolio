@@ -156,7 +156,7 @@ img {
 }
 .grid {
     display: grid;
-    margin: 5%;
+    margin: 5% 5% 10% 5%;
     grid-template-columns: 2fr 1fr 1fr;
     gap: 30px;
     grid-auto-rows: minmax(100px, auto);
@@ -193,7 +193,7 @@ img {
 .illustration {
     display: flex;
     flex-wrap: wrap;
-    margin: 5%;
+    margin: 5% 5% 10% 5%;
     align-items: flex-start;
 }
 .spot {
@@ -238,11 +238,16 @@ img {
     }
     
     /** body **/
+    .project {
+        padding-right: 3%;
+        max-width: 30%;
+    }
     .heading {
         margin-left: 9%;
     }
     .container {
         display: flex;
+        flex-wrap: wrap;
         margin: 0;
         padding: 5% 2% 5% 5%; 
     }
@@ -284,7 +289,7 @@ img {
         justify-content: space-between;
     }
     .container-other {
-        width: 50%;
+        width: 55%;
     }
     .center-block iframe {
         margin-top: 1em;
