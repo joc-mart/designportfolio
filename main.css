@@ -399,7 +399,12 @@ img {
     .about-h2 {
         display: none;
     }
-    .container .more-projects {
+    .container {
+        padding: 0% 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .more-projects {
         padding: 0% 5%;
         display: flex;
         flex-direction: column;
@@ -441,7 +446,12 @@ img {
     .spot {
         width: 100%;
     }
-    .grid .grid-2col{
+    .grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-2col {
         display: flex;
         flex-direction: column;
         align-items: center;
