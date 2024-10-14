@@ -271,6 +271,10 @@ img {
         margin: 0;
         padding: 5% 2% 5% 5%; 
     }
+    .container-small {
+        margin: 0;
+        padding: 0% 2% 5% 5%; 
+    }
     .block-space {
         margin: 0;
         padding: 0% 3% 5% 3%;
@@ -412,6 +416,9 @@ img {
         padding: 0% 5%;
         display: flex;
         flex-direction: column;
+    }
+    .container-small {
+        padding: 0% 5%;
     }
     .more-projects {
         padding: 0% 5%;
