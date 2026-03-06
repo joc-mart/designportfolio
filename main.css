@@ -67,7 +67,7 @@ a{
 img {
     max-width: 100%;
     display: block;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .block-img {
     margin: 10px;
@@ -84,7 +84,7 @@ img {
     border: 4px solid #e4e0d7;
     color: var(--black);
     padding: 15px 32px;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     margin: 5% 5%;
 }
@@ -95,7 +95,7 @@ img {
 .navigation {
     border: none;
     padding: 15px 15px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .space-above {
@@ -120,7 +120,7 @@ img {
 }
 .center-img {
     display: block;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .container-ebay {
     padding-left: 5%;
