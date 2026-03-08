@@ -64,6 +64,11 @@ a{
 .copy {
     font-size: 16pt;
 }
+.tool{
+    font-size: 12pt;
+    margin-top: -10pt;
+    margin-bottom: 30pt;
+}
 img {
     max-width: 100%;
     display: block;
