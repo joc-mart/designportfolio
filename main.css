@@ -45,6 +45,10 @@ h3 {
 }
 a{
     text-decoration: none;
+    color: var(--dark-green);
+}
+body a:hover {
+    color: var(--green);
 }
 .type {
     margin-right: 10%;
@@ -94,7 +98,7 @@ img {
     margin: 5% 5%;
 }
 .button:hover {
-    background-color: #e4e0d7;
+    border: 2px solid var(--black);
     color: var(--dark-green);
 }
 .navigation {
