@@ -82,7 +82,6 @@ img {
     margin: 10px;
 }
 .cozy-img {
-    margin: 0;
     border-radius: 0;
 }
 .cozy-img--styleguide {
@@ -116,7 +115,6 @@ img {
     padding: 5% 2% 5% 5%; 
 }
 
-/** ebay **/
 .center {
     display: flex;
     margin: 0 20% 5%;
@@ -150,7 +148,6 @@ img {
     color: var(--paleyellow);
 }
 
-/** cozy **/
 .block-cozy {
     display: flex;
     flex-direction: row;
@@ -409,6 +406,10 @@ img {
     a.button {
         margin: 0;
     }
+    .button:hover {
+        border: none;
+        color: var(--dark-green);
+    }
 
      /** all **/
     h2 {
@@ -459,6 +460,9 @@ img {
     }
     .center-block iframe {
         margin-top: 2em;
+    }
+    .center-block {
+        display: block;
     }
     video {
         width: 100%;
