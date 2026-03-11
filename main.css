@@ -144,6 +144,9 @@ img {
     bottom: 0;
     width: 100%;
 }
+.footer a {
+    color: var(--black);
+}
 .footer a:hover{
     color: var(--paleyellow);
 }
