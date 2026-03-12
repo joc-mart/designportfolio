@@ -50,6 +50,12 @@ a{
 body a:hover {
     color: var(--green);
 }
+h3 a {
+    color: var(--black);
+}
+h1 a {
+    color: var(--black);
+}
 .type {
     margin-right: 10%;
 }
@@ -96,9 +102,25 @@ img {
     text-align: center;
     margin: 5% 5%;
 }
-.button:hover {
-    border: 2px solid var(--black);
-    color: var(--dark-green);
+.hover-underline-animation {
+    display: inline-block;
+    position:relative;
+}
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--black);
+    transition: transform 0.25s ease-out;
+    transform-origin: bottom center;
+}
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
 }
 .navigation {
     border: none;
@@ -248,6 +270,7 @@ img {
     }
     ul {
         display: flex;
+        align-items: center;
     }
     nav li {
         padding: 1rem;
