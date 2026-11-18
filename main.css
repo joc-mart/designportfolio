@@ -84,6 +84,9 @@ img {
     display: block;
     border-radius: 5px;
 }
+.gallery {
+    max-width: 50%;
+}
 .block-img {
     margin: 10px;
 }
